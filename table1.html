@@ -5,6 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tables with html</title>
 </head>
+<style>
+    table {
+    float: left;
+    margin-right: 50px;
+    }
+    #tabla3 {
+    clear: both;
+    margin-top: 50px;
+    }
+</style>
 <body>
     <table border="1">
         <tr><th>Names</th></tr>
@@ -20,15 +30,15 @@
         <tr><td>Yulian</td><td>Assange</td></tr>
     </table>
 
-    <table border="1">
+    <table border="1" id="tabla3">
         <tr><th colspan="2">Cars</th></tr>
         <tr><th>Brand</th><th>Reference</th></tr>
         <tr><td rowspan="4">Mazda</td><td>CX-3</td></tr>
         <tr><td>CX-5</td></tr>
         <tr><td>CX60</td></tr>
         <tr><td>323</td></tr>
-        <tr><td>Renault</td><td>Sandero</td></tr>
-        <tr><td></td><td>Kwid</td></tr>
+        <tr><td rowspan="2">Renault</td><td>Sandero</td></tr>
+        <tr><td>Kwid</td></tr>
         <tr><td>Chevrolet</td><td>Aveo</td></tr>
     </table>
 </body>
